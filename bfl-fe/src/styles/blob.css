@@ -1,0 +1,22 @@
+/* -- Blob -- */
+
+#blob {
+  position: absolute;
+  background-color: white;
+  height: 36vmax;
+  aspect-ratio: 1;
+  background: linear-gradient(to right, #785599, #9e8548);
+  border-radius: 50%;
+  opacity: 0.8;
+  left: 50%;
+  top: 50%;
+  translate: -50% -50%;
+}
+
+#blur {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  backdrop-filter: blur(8vmax);
+  -webkit-backdrop-filter: blur(8vmax);
+}

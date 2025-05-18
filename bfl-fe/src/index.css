@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+:root {
+  --yellow: #ffd074;
+  --purple: #a374ff;
+  --turquois: #15f0d1;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+    background: #1d1d1f;
+    z-index: -1;
+}
