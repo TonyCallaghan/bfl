@@ -1,9 +1,21 @@
 @import "tailwindcss";
+/* @import "swiper/css"; */
 
 :root {
   --yellow: #ffd074;
   --purple: #a374ff;
   --turquois: #15f0d1;
+
+  --yellow-color: rgba(255, 208, 116);
+  --turquoise-color: rgba(23, 241, 209);
+  --purple-color: rgba(176, 135, 255);
+}
+
+@font-face {
+  font-family: 'Matter';
+  src: url('./assets/fonts/Matter-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
 * {

@@ -4,10 +4,10 @@
 
 .hero-container {
   position: relative;    /* contain the absolutely-positioned #background */
-  overflow: hidden;      /* clip blob & blur inside the hero */
+  /* overflow: hidden;      clip blob & blur inside the hero */
   width: 100vw;
   height: 100vh;
-  background: #1d1d1f;
+  background: transparent;
   font-family: "Antique Olive Std", sans-serif;
 }
 

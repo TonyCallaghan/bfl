@@ -4,7 +4,7 @@ import ShinyButton from "../pieces/ShinyButton";
 const Footer = () => {
   return (
     <div
-      className="flex flex-col justify-center antialiased relative border border-dark-300 rounded-xl mb-5"
+      className="text-white flex flex-col justify-center antialiased relative border border-dark-300 rounded-xl mb-5"
       id="contact"
     >
       <div>
@@ -14,14 +14,14 @@ const Footer = () => {
           </h1>
 
           <ShinyButton>
-            <a>Schedule call</a>
+            <a>The button</a>
           </ShinyButton>
         </div>
 
         <div className="mt-16 p-10 border-t border-dark-200 dark:border-white/10 flex flex-col md:flex-row justify-between gap-10 md:gap-0">
           <div className="space-y-2.5">
             <h3 className="text-xl font-bold relative z-10">
-              Andrija Djordjevic
+              Tony Callaghan
             </h3>
             <p className="text-dark-200/70 relative z-10">
               &copy; 2025 | All rights reserved.

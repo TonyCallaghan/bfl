@@ -2,9 +2,9 @@
 import React, { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import "../styles/hero.css";
-import video from '../assets/search-vid-cut.mp4'
+import video from "../assets/search-vid-cut.mp4";
 import Blob from "./Blob";
-
+import ScrollHintOrb from "./ScrollHintOrb";
 
 const Hero: React.FC = () => {
   // const blobRef = useRef<HTMLDivElement>(null);
@@ -20,7 +20,6 @@ const Hero: React.FC = () => {
 
     let allowRotation = true;
     const onMouseMove = (e: MouseEvent) => {
-
       // 3D tilt video
       if (!allowRotation) return;
       const rect = videoContainer.getBoundingClientRect();
@@ -134,9 +133,9 @@ const Hero: React.FC = () => {
   }, []);
 
   return (
-    // /* <Navbar/> */
     <div className="hero-container">
       <Blob />
+      <ScrollHintOrb />
 
       <main className="absolute w-full h-full flex justify-center items-center perspective-[2000px] select-none">
         <div className="relative rounded-[40px] w-[580px] h-[520px]">

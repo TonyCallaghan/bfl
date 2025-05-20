@@ -1,3 +1,22 @@
-#explanation {
-    background: #1d1d1f;
+#col1 {
+  color: #15f0d1;
+}
+
+#col2 {
+  color: #a374ff;
+}
+
+#col3 {
+  color: #DFB679;
+}
+
+.sel-wrk {
+  font-size: 1vw;
+  color: #15f0d1;
+}
+
+.main-txt {
+  font-size: 2.7vw;
+  letter-spacing: -1px;
+  color: #D6D6D2;
 }

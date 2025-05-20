@@ -28,8 +28,15 @@ const Blob = () => {
   }, []);
 
   return (
-    <section>
-      <div id="blob" ref={blobRef} />
+    <section id="blob-bg">
+      <div
+        id="blob"
+        ref={blobRef}
+        style={{
+          background: "linear-gradient(to right, #785599, #9e8548)",
+        }}
+      />
+
       <div id="blur" />
     </section>
   );

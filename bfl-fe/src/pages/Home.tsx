@@ -1,37 +1,27 @@
 import React from "react";
-import Navbar from "../components/NavBar";
+import Navbar from "../components/Navbar";
 import { gsap } from "gsap";
 import Explanation from "../components/Explanation";
 import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import Blob from "../components/Blob";
+// import Carousel from "../components/Carousel";
+import Section3 from "../components/Section3";
+import Explanation2 from "../components/Explanation2";
 
 
 
 const Home = () => {
   return (
-    <div className="bg-[#1d1d1f] text-white">
-      {/* <section>
-        <div id="blob" ref={blobRef} />
-        <div id="blur" />
-      </section> */}
+    <div className="">
+      <Blob />
       <Navbar />
       <Hero />
       <Explanation />
+      <Explanation2 />
+      {/* <Carousel /> */}
 
-      <section
-        id="section2"
-        className="h-screen w-screen bg-primary flex justify-center items-center z-50"
-      >
-        <h1 className="text-6xl">Section 2</h1>
-      </section>
-
-      <section
-        id="section3"
-        className="h-screen w-screen bg-red flex justify-center items-center"
-      >
-        <h1 className="text-6xl">Section 3</h1>
-      </section>
+      <Section3 />
 
       <Footer />
     </div>
